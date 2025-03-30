@@ -36,9 +36,9 @@ interface Article {
 const articles: Article[] = [
   {
     isRightSection: true,
-    title: "Delivering Expert Guidance",
+    title: "The Problem We Solve",
     subTitle:
-      "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "Traditional exam evaluation systems lack crucial elements like detailed feedback, quick evaluation, and individual student growth tracking. This creates inefficiencies in the education process and limits students' ability to improve.",
     single: false,
     imgOne: blueprints,
     imgOneAlt: "Blueprints and digital tablet with construction plans.",
@@ -47,9 +47,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Our AI-Powered Solution",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "Quintet-AI revolutionizes exam evaluation with instant grading, personalized feedback for each student, and comprehensive growth analytics. Our system helps educational institutions make data-driven decisions to improve learning outcomes.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
     btnExists: true,
@@ -58,9 +58,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Why Choose Quintet-AI",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "Our system provides unbiased, consistent evaluation while significantly reducing teacher workload. With advanced AI-driven analytics, institutions can track student progress over time and identify areas needing improvement.",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: "Construction workers orchestrating a project",
@@ -78,9 +78,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: true,
-    title: "Crafting Bespoke Strategies for Unique Challenges",
+    title: "Scalable for Any Institution",
     subTitle:
-      "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "Whether you're a small private school or a large university, our SaaS model scales to meet your needs. Pay based on the number of students, with optional advanced analytics packages available.",
     single: false,
     imgOne: progressBuilding,
     imgOneAlt: "In progress building structure",
@@ -96,39 +96,30 @@ const pageTitle: string = `Services | ${SITE.title}`;
 ---
 
 <MainLayout
-  title={pageTitle}
+  title="Quintet-AI Exam Evaluation System"
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
-    "name": "Expert Consultation Services | ScrewFast",
-    "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+    "@id": "your-website-url/services", // Replace with your actual URL
+    "url": "your-website-url/services",  // Replace with your actual URL
+    "name": "Quintet-AI Exam Evaluation System",
+    "description": "An AI-powered exam evaluation system that delivers individual feedback, accelerates grading, and provides deep insights into student progress.", // From "WHY US?" [cite: 5, 6]
     "isPartOf": {
-        "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
-        "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
+      "@type": "WebSite",
+      "url": "your-website-url",  // Replace with your actual URL
+      "name": "Quintet-AI",
+      "description": "Enable intelligence on education"  // From the document
     },
     "inLanguage": "en-US"
   }}
 >
-  <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="AI Exam Evaluation for Educational Institutions"
+    subTitle="Quintet-AI is creating an AI exam evaluation system for educational institutions, providing individual feedback, speed evaluation, and student growth comparison."
     btnExists={true}
-    btnTitle="Schedule a Consultation"
+    btnTitle="Request a Demo"
     btnURL="#"
   />
-  <!-- RightSection and LeftSection contain details about various services along with pertinent imagery.
-  They alternate for variety in design.
-  The 'btnExists' property is used to toggle the display of a button in these sections.
-  When btnExists={true}, a button is displayed.
-  This can be used to link to more detailed information or related resources.
-  RightSection can also conditionally render one or two images based on the 'single' property.
-  If 'single' is true, it displays one image, otherwise it displays two.
-  -->
   {
     articles.map(article => {
       return article.isRightSection ? (
@@ -157,24 +148,27 @@ const pageTitle: string = `Services | ${SITE.title}`;
       );
     })
   }
-  <!--FeaturesStats section showcases essential stats valuable to users-->
   <FeaturesStats
-    title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
+    title="Key Benefits"
+    subTitle="Quintet-AI offers AI-powered exam evaluation with instant feedback, detailed analytics, and increased efficiency."
+    mainStatTitle="Instant Evaluation"
+    mainStatSubTitle="Get results in minutes, not weeks."
     stats={[
       {
-        stat: "99.8%",
-        description: "project completion rate",
+        stat: "Instant",
+        description: "Speed of Evaluation",
       },
       {
-        stat: "5,000+",
-        description: "successful installations",
+        stat: "Personalized",
+        description: "AI Feedback",
       },
       {
-        stat: "85%",
-        description: "client growth year-over-year",
+        stat: "Advanced",
+        description: "Student Growth Analytics",
+      },
+      {
+        stat: "Reduced",
+        description: "Teacher Workload"
       },
     ]}
   />
