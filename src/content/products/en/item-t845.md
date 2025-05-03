@@ -1,13 +1,12 @@
----
-title: "SF-TB T845"
-description: "Machine Screws"
+title: "New Exam System"
+description: "Exam System"
 main:
   id: 1
   content: |
-    Introducing the SF-TB T845 – your go-to solution for precision fastening in machinery and equipment. This comprehensive set of machine screws is meticulously crafted to meet the stringent demands of industrial applications, ensuring secure and reliable fastening.
+    Introducing SmartEval 360 – the all-in-one examination evaluation system built to meet the needs of modern schools. This platform ensures secure, efficient, and data-driven assessment processes for both teachers and students.
   imgCard: "@/images/product-image-1.avif"
   imgMain: "@/images/product-image-main-1.avif"
-  imgAlt: "Mockup boxes of machine screws set"
+  imgAlt: "Student filling digital exam on tablet"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -19,37 +18,36 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Blueprints"
 longDescription:
-  title: "Precision Fastening Solutions"
+  title: "Smart Evaluation for Smarter Schools"
   subTitle: |
-    The SF-TB T845 Machine Screws offer unparalleled precision and reliability for industrial applications, ensuring seamless operation and longevity for your machinery and equipment.
+    SmartEval 360 helps schools automate exam creation, evaluation, and results tracking. With real-time performance analytics and intuitive tools for teachers, the system enhances accuracy, fairness, and reporting.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
 descriptionList:
-  - title: "Durability"
-    subTitle: "Crafted from high-quality materials, these machine screws are built to withstand the rigors of industrial environments."
-  - title: "Precision Engineering"
-    subTitle: "Engineered with precision-cut threads and exact specifications, ensuring a tight and secure fit for every application."
-  - title: "Versatility"
-    subTitle: "Suitable for a wide range of machinery and equipment, providing versatile fastening solutions for various industrial needs."
+  - title: "Automated Grading"
+    subTitle: "Eliminates manual errors by automatically evaluating objective-type answers using digital sheets."
+  - title: "Real-Time Analytics"
+    subTitle: "Provides instant feedback and trends to help educators identify student progress and gaps."
+  - title: "User-Friendly Design"
+    subTitle: "Simple and secure interface for teachers, students, and school admins."
 specificationsLeft:
-  - title: "Material Composition"
-    subTitle: "Constructed from premium-grade steel or alloy for exceptional strength and durability."
-  - title: "Surface Finish"
-    subTitle: "Finished with a protective coating to enhance corrosion resistance and extend service life."
-  - title: "Quantity Per Set"
-    subTitle: "Each set contains a comprehensive assortment of machine screws to meet diverse industrial requirements."
-  - title: "Size Range"
-    subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
+  - title: "Exam Types Supported"
+    subTitle: "Supports MCQ, subjective, and hybrid exam formats with customizable evaluation rubrics."
+  - title: "Security & Access"
+    subTitle: "Encrypted exam data with controlled access for evaluators and school authorities."
+  - title: "Device Compatibility"
+    subTitle: "Accessible via desktop, tablet, or school smart boards with minimal setup."
+  - title: "Cloud Backup"
+    subTitle: "Automatically stores exam data and results securely on the cloud for future access and audit."
 specificationsRight:
-  - title: "Thread Specifications"
-    subTitle: "Precision-engineered threads ensure optimal grip and reliability, even in high-vibration environments."
-  - title: "Load Capacity"
-    subTitle: "Designed to meet or exceed industry standards for load-bearing capacity, ensuring safe and reliable operation."
-  - title: "Certifications"
-    subTitle: "Compliant with relevant industry standards and certifications, guaranteeing quality and reliability."
-  - title: "Applications"
-    subTitle: "Ideal for use in a wide range of industrial machinery, equipment, and assemblies that demand precise and secure fastening."
+  - title: "Reporting Tools"
+    subTitle: "Downloadable mark sheets, performance charts, and term-wise result summaries."
+  - title: "Multi-Grade Support"
+    subTitle: "Efficiently manages exams across various grade levels, subjects, and sections."
+  - title: "Customizable Workflow"
+    subTitle: "Adaptable workflow for question uploading, review stages, and scoring parameters."
+  - title: "Integrations"
+    subTitle: "Syncs with school management software and attendance tracking systems."
 blueprints:
   first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"   
----
+  second: "@/images/blueprint-2.avif"
